@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link type="text/css" rel="stylesheet" href="/style-guide/css/fluig-style-guide-flat.min.css" />
+	<script type="text/javascript" src="/portal/resources/js/jquery/jquery.js"></script>
+	<script type="text/javascript" src="/portal/resources/js/jquery/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/portal/resources/js/mustache/mustache-min.js"></script>
+	<script type="text/javascript" src="/style-guide/js/fluig-style-guide.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+	<div class="fluig-style-guide">
+		<form class="form" role="form" id="formCadastro">
+			<div class="text-center">
+				<h1><strong>Cadastro de informações pessoais</strong></h1>
+			</div>
+
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<h3 class="panel-title font-bold">Informações Pessoais</h3>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="form-group">
+								<div class="input-group">
+									<label for="observacao">Informe seu nome:</label>
+									<input type="text" name="nome" id="nome" class="form-control"
+										placeholder="Nome completo">
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="form-group">
+								<div class="input-group">
+									<label for="email">Informe seu email:</label>
+									<input type="email" name="email" id="email" class="form-control"
+										placeholder="E-mail">
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="form-group">
+								<div class="input-group">
+									<label for="idade">Informe sua idade:</label>
+									<input type="text" name="idade" id="idade" class="form-control" placeholder="Idade">
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="">Estado Civil:</label>
+								<div class="custom-radio custom-radio-primary">
+									<input type="radio" name="estadoCivil" value="solteiro" id="radio-1">
+									<label for="radio-1">Solteiro</label>
+								</div>
+								<div class="custom-radio custom-radio-success">
+									<input type="radio" name="estadoCivil" value="casado" id="radio-2">
+									<label for="radio-2">Casado</label>
+								</div>
+								<div class="custom-radio custom-radio-info">
+									<input type="radio" name="estadoCivil" value="divorciado" id="radio-3">
+									<label for="radio-3">Divorciado</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<h3 class="panel-title font-bold">Validação RH</h3>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="">Dados estão corretos?:</label>
+								<div class="custom-radio custom-radio-primary">
+									<input type="radio" name="dadosCorretos" value="sim" id="dadosCorretos-1">
+									<label for="dadosCorretos-1">Sim</label>
+								</div>
+								<div class="custom-radio custom-radio-primary">
+									<input type="radio" name="dadosCorretos" value="nao" id="dadosCorretos-2">
+									<label for="dadosCorretos-2">Não</label>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<div class="input-group">
+									<label for="observacao">Observação:</label>
+									<textarea class="form-control" name="observacao" id="observacao" rows="3"></textarea>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="text-right">
+				<button type="submit" class="btn btn-success">Submit</button>
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
