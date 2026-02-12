@@ -146,8 +146,15 @@
 										Informe o nome da empresa:
 										<span class="text-danger">*</span>
 									</label>
-									<input type="text" name="empresa" id="empresa" class="form-control"
-										placeholder="Nome da empresa">
+									<input type="zoom" id="empresa" name="empresa" data-zoom="{
+           'datasetId':'ds_empresas',
+           'displayKey':'nome',
+           'fields':[
+               {'field':'codigo','label':'Código'},
+               {'field':'nome','label':'Empresa'}
+           ]
+       }">
+
 								</div>
 							</div>
 						</div>
