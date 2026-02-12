@@ -2,9 +2,9 @@
   <ProcessDefinition>
     <processDefinitionPK>
       <companyId>1</companyId>
-      <processId>new_diagrama_teste</processId>
+      <processId>new_solicitacao_rh_validate</processId>
     </processDefinitionPK>
-    <processDescription>new_diagrama_teste</processDescription>
+    <processDescription>new_solicitacao_rh_validate</processDescription>
     <instruction></instruction>
     <active>true</active>
     <publicProcess>false</publicProcess>
@@ -27,11 +27,11 @@
   <ProcessDefinitionVersion>
     <processDefinitionVersionPK>
       <companyId>1</companyId>
-      <processId>new_diagrama_teste</processId>
-      <version>23</version>
+      <processId>new_solicitacao_rh_validate</processId>
+      <version>9</version>
     </processDefinitionVersionPK>
     <versionDescription></versionDescription>
-    <formId>0</formId>
+    <formId>6484</formId>
     <editionMode>true</editionMode>
     <updateAttachmentsVersion>false</updateAttachmentsVersion>
     <controlsAttachmentsSecurity>false</controlsAttachmentsSecurity>
@@ -49,7 +49,7 @@
     <ProcessState>
       <processStatePK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <version>1</version>
         <sequence>4</sequence>
       </processStatePK>
@@ -99,12 +99,12 @@
     <ProcessState>
       <processStatePK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <version>1</version>
         <sequence>5</sequence>
       </processStatePK>
-      <stateName>Solicitar Inscrição</stateName>
-      <stateDescription>Solicitar Inscrição</stateDescription>
+      <stateName>Validação RH</stateName>
+      <stateDescription>Validação RH</stateDescription>
       <instruction></instruction>
       <deadlineTime>660</deadlineTime>
       <deadlineFieldName></deadlineFieldName>
@@ -150,17 +150,18 @@
     <ProcessState>
       <processStatePK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <version>1</version>
         <sequence>12</sequence>
       </processStatePK>
       <stateName>Finalizar Inscrição</stateName>
       <stateDescription>Finalizar Inscrição</stateDescription>
       <instruction></instruction>
-      <deadlineTime>0</deadlineTime>
+      <deadlineTime>300</deadlineTime>
       <deadlineFieldName></deadlineFieldName>
       <joint>false</joint>
       <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
       <selectColleague>1</selectColleague>
       <initialState>false</initialState>
       <notifyAuthorityDelay>true</notifyAuthorityDelay>
@@ -200,7 +201,7 @@
     <ProcessState>
       <processStatePK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <version>1</version>
         <sequence>10</sequence>
       </processStatePK>
@@ -225,7 +226,7 @@
     <ProcessState>
       <processStatePK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <version>1</version>
         <sequence>9</sequence>
       </processStatePK>
@@ -272,7 +273,7 @@
     <ProcessState>
       <processStatePK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <version>1</version>
         <sequence>15</sequence>
       </processStatePK>
@@ -321,9 +322,9 @@
     <ConditionProcessState>
       <conditionProcessStatePK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <expressionOrder>1</expressionOrder>
-        <version>23</version>
+        <version>9</version>
         <sequence>10</sequence>
       </conditionProcessStatePK>
       <condition></condition>
@@ -335,9 +336,9 @@
     <ConditionProcessState>
       <conditionProcessStatePK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <expressionOrder>2</expressionOrder>
-        <version>23</version>
+        <version>9</version>
         <sequence>10</sequence>
       </conditionProcessStatePK>
       <condition></condition>
@@ -351,7 +352,7 @@
     <ProcessLink>
       <processLinkPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <version>1</version>
         <linkSequence>6</linkSequence>
       </processLinkPK>
@@ -368,7 +369,7 @@
     <ProcessLink>
       <processLinkPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <version>1</version>
         <linkSequence>11</linkSequence>
       </processLinkPK>
@@ -385,7 +386,7 @@
     <ProcessLink>
       <processLinkPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <version>1</version>
         <linkSequence>13</linkSequence>
       </processLinkPK>
@@ -402,7 +403,7 @@
     <ProcessLink>
       <processLinkPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <version>1</version>
         <linkSequence>14</linkSequence>
       </processLinkPK>
@@ -419,7 +420,7 @@
     <ProcessLink>
       <processLinkPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <version>1</version>
         <linkSequence>16</linkSequence>
       </processLinkPK>
@@ -435,7 +436,140 @@
     </ProcessLink>
   </list>
   <list/>
-  <list/>
+  <list>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>ENG_LITERALS</eventId>
+        <processId>new_solicitacao_rh_validate</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>#Thu Feb 12 15:52:46 BRST 2026&#xd;
+4.name=In\u00EDcio&#xd;
+14.flow=&#xd;
+16.name=&#xd;
+process.description=new_solicitacao_rh_validate&#xd;
+5.name=Valida\u00E7\u00E3o RH&#xd;
+6.return=&#xd;
+6.name=&#xd;
+16.flow=&#xd;
+5.instructions=&#xd;
+13.return=&#xd;
+10.name=Dados Corretos?&#xd;
+7.name=Start&#xd;
+process.instructions=&#xd;
+6.flow=&#xd;
+11.name=&#xd;
+12.name=Finalizar Inscri\u00E7\u00E3o&#xd;
+1.name=Pool&#xd;
+9.name=Fim&#xd;
+11.flow=&#xd;
+12.instructions=&#xd;
+15.instructions=Atividade final do processo&#xd;
+13.name=&#xd;
+2.name=Reporter&#xd;
+16.return=&#xd;
+11.return=&#xd;
+14.return=&#xd;
+9.instructions=Atividade final do processo&#xd;
+4.instructions=&#xd;
+14.name=&#xd;
+3.name=Assignee&#xd;
+13.flow=&#xd;
+process.version.instructions=&#xd;
+process.category=teste_mikael&#xd;
+15.name=Fim&#xd;
+</eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>ESP_LITERALS</eventId>
+        <processId>new_solicitacao_rh_validate</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>#Thu Feb 12 15:52:46 BRST 2026&#xd;
+4.name=In\u00EDcio&#xd;
+14.flow=&#xd;
+16.name=&#xd;
+process.description=new_solicitacao_rh_validate&#xd;
+5.name=Valida\u00E7\u00E3o RH&#xd;
+6.return=&#xd;
+6.name=&#xd;
+16.flow=&#xd;
+5.instructions=&#xd;
+13.return=&#xd;
+10.name=Dados Corretos?&#xd;
+7.name=Start&#xd;
+process.instructions=&#xd;
+6.flow=&#xd;
+11.name=&#xd;
+12.name=Finalizar Inscri\u00E7\u00E3o&#xd;
+1.name=Pool&#xd;
+9.name=Fim&#xd;
+11.flow=&#xd;
+12.instructions=&#xd;
+15.instructions=Atividade final do processo&#xd;
+13.name=&#xd;
+2.name=Reporter&#xd;
+16.return=&#xd;
+11.return=&#xd;
+14.return=&#xd;
+9.instructions=Atividade final do processo&#xd;
+4.instructions=&#xd;
+14.name=&#xd;
+3.name=Assignee&#xd;
+13.flow=&#xd;
+process.version.instructions=&#xd;
+process.category=teste_mikael&#xd;
+15.name=Fim&#xd;
+</eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>POR_LITERALS</eventId>
+        <processId>new_solicitacao_rh_validate</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>#Thu Feb 12 15:52:46 BRST 2026&#xd;
+4.name=In\u00EDcio&#xd;
+14.flow=&#xd;
+16.name=&#xd;
+process.description=new_solicitacao_rh_validate&#xd;
+5.name=Valida\u00E7\u00E3o RH&#xd;
+6.return=&#xd;
+6.name=&#xd;
+16.flow=&#xd;
+5.instructions=&#xd;
+13.return=&#xd;
+10.name=Dados Corretos?&#xd;
+7.name=Start&#xd;
+process.instructions=&#xd;
+6.flow=&#xd;
+11.name=&#xd;
+12.name=Finalizar Inscri\u00E7\u00E3o&#xd;
+1.name=Pool&#xd;
+9.name=Fim&#xd;
+11.flow=&#xd;
+12.instructions=&#xd;
+15.instructions=Atividade final do processo&#xd;
+13.name=&#xd;
+2.name=Reporter&#xd;
+16.return=&#xd;
+11.return=&#xd;
+14.return=&#xd;
+9.instructions=Atividade final do processo&#xd;
+4.instructions=&#xd;
+14.name=&#xd;
+3.name=Assignee&#xd;
+13.flow=&#xd;
+process.version.instructions=&#xd;
+process.category=teste_mikael&#xd;
+15.name=Fim&#xd;
+</eventDescription>
+    </WorkflowProcessEvent>
+  </list>
   <list/>
   <list>
     <SwimLane>
@@ -449,7 +583,7 @@
       <parentSequence>0</parentSequence>
       <swimLanePK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <version>1</version>
         <sequence>1</sequence>
       </swimLanePK>
@@ -465,7 +599,7 @@
       <parentSequence>1</parentSequence>
       <swimLanePK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <version>1</version>
         <sequence>2</sequence>
       </swimLanePK>
@@ -481,7 +615,7 @@
       <parentSequence>1</parentSequence>
       <swimLanePK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <version>1</version>
         <sequence>3</sequence>
       </swimLanePK>
@@ -494,7 +628,7 @@
       <positionY>20</positionY>
       <processComponGrafPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <version>1</version>
         <componGrafSequence>7</componGrafSequence>
       </processComponGrafPK>
@@ -505,7 +639,7 @@
     <ProcessLinkAssoc>
       <processLinkAssocPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <version>1</version>
         <linkSequence>8</linkSequence>
       </processLinkAssocPK>
@@ -517,8 +651,8 @@
     <ProcessLinkBend>
       <processLinkBendPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
-        <version>23</version>
+        <processId>new_solicitacao_rh_validate</processId>
+        <version>9</version>
         <linkSequence>6</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -528,8 +662,8 @@
     <ProcessLinkBend>
       <processLinkBendPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
-        <version>23</version>
+        <processId>new_solicitacao_rh_validate</processId>
+        <version>9</version>
         <linkSequence>8</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -543,7 +677,7 @@
     <ProcessFormField>
       <processFormFieldPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <fieldId>dadosCorretos</fieldId>
       </processFormFieldPK>
       <fieldDescription>dadosCorretos</fieldDescription>
@@ -552,7 +686,7 @@
     <ProcessFormField>
       <processFormFieldPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <fieldId>idade</fieldId>
       </processFormFieldPK>
       <fieldDescription>idade</fieldDescription>
@@ -561,7 +695,7 @@
     <ProcessFormField>
       <processFormFieldPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <fieldId>setor</fieldId>
       </processFormFieldPK>
       <fieldDescription>setor</fieldDescription>
@@ -570,7 +704,7 @@
     <ProcessFormField>
       <processFormFieldPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <fieldId>observacao</fieldId>
       </processFormFieldPK>
       <fieldDescription>observacao</fieldDescription>
@@ -579,7 +713,7 @@
     <ProcessFormField>
       <processFormFieldPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <fieldId>Descrição padrão</fieldId>
       </processFormFieldPK>
       <fieldDescription>Descrição padrão</fieldDescription>
@@ -588,7 +722,7 @@
     <ProcessFormField>
       <processFormFieldPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <fieldId>matricula</fieldId>
       </processFormFieldPK>
       <fieldDescription>matricula</fieldDescription>
@@ -597,7 +731,7 @@
     <ProcessFormField>
       <processFormFieldPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <fieldId>atividadeAtual</fieldId>
       </processFormFieldPK>
       <fieldDescription>atividadeAtual</fieldDescription>
@@ -606,7 +740,7 @@
     <ProcessFormField>
       <processFormFieldPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <fieldId>nome</fieldId>
       </processFormFieldPK>
       <fieldDescription>nome</fieldDescription>
@@ -615,7 +749,7 @@
     <ProcessFormField>
       <processFormFieldPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <fieldId>estadoCivil</fieldId>
       </processFormFieldPK>
       <fieldDescription>estadoCivil</fieldDescription>
@@ -624,7 +758,7 @@
     <ProcessFormField>
       <processFormFieldPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <fieldId>empresa</fieldId>
       </processFormFieldPK>
       <fieldDescription>empresa</fieldDescription>
@@ -633,7 +767,7 @@
     <ProcessFormField>
       <processFormFieldPK>
         <companyId>1</companyId>
-        <processId>new_diagrama_teste</processId>
+        <processId>new_solicitacao_rh_validate</processId>
         <fieldId>email</fieldId>
       </processFormFieldPK>
       <fieldDescription>email</fieldDescription>
@@ -646,8 +780,8 @@
     <ProcessAppConfiguration>
       <id>0</id>
       <tenantId>0</tenantId>
-      <processId>new_diagrama_teste</processId>
-      <processVersion>23</processVersion>
+      <processId>new_solicitacao_rh_validate</processId>
+      <processVersion>9</processVersion>
       <stateSequence>5</stateSequence>
       <appKey>approval</appKey>
       <appField>title</appField>
@@ -656,8 +790,8 @@
     <ProcessAppConfiguration>
       <id>0</id>
       <tenantId>0</tenantId>
-      <processId>new_diagrama_teste</processId>
-      <processVersion>23</processVersion>
+      <processId>new_solicitacao_rh_validate</processId>
+      <processVersion>9</processVersion>
       <stateSequence>5</stateSequence>
       <appKey>approval</appKey>
       <appField>description</appField>
@@ -666,8 +800,8 @@
     <ProcessAppConfiguration>
       <id>0</id>
       <tenantId>0</tenantId>
-      <processId>new_diagrama_teste</processId>
-      <processVersion>23</processVersion>
+      <processId>new_solicitacao_rh_validate</processId>
+      <processVersion>9</processVersion>
       <stateSequence>5</stateSequence>
       <appKey>approval</appKey>
       <appField>highlight</appField>
@@ -676,8 +810,8 @@
     <ProcessAppConfiguration>
       <id>0</id>
       <tenantId>0</tenantId>
-      <processId>new_diagrama_teste</processId>
-      <processVersion>23</processVersion>
+      <processId>new_solicitacao_rh_validate</processId>
+      <processVersion>9</processVersion>
       <stateSequence>5</stateSequence>
       <appKey>approval</appKey>
       <appField>approve</appField>
@@ -686,8 +820,8 @@
     <ProcessAppConfiguration>
       <id>0</id>
       <tenantId>0</tenantId>
-      <processId>new_diagrama_teste</processId>
-      <processVersion>23</processVersion>
+      <processId>new_solicitacao_rh_validate</processId>
+      <processVersion>9</processVersion>
       <stateSequence>5</stateSequence>
       <appKey>approval</appKey>
       <appField>reject</appField>

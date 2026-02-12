@@ -11,24 +11,45 @@
   </void>
   <void method="put">
    <string>camposFormulario, documentoId = 6454</string>
-   <array class="java.lang.String" length="6">
+   <array class="java.lang.String" length="13">
     <void index="0">
-     <string>dadosCorretos</string>
+     <string>atividadeAtual</string>
     </void>
     <void index="1">
-     <string>email</string>
+     <string>dadosCorretos</string>
     </void>
     <void index="2">
-     <string>estadoCivil</string>
+     <string>email</string>
     </void>
     <void index="3">
-     <string>idade</string>
+     <string>empresa</string>
     </void>
     <void index="4">
-     <string>nome</string>
+     <string>estadoCivil</string>
     </void>
     <void index="5">
+     <string>finalizar_inscricao</string>
+    </void>
+    <void index="6">
+     <string>idade</string>
+    </void>
+    <void index="7">
+     <string>matricula</string>
+    </void>
+    <void index="8">
+     <string>nome</string>
+    </void>
+    <void index="9">
      <string>observacao</string>
+    </void>
+    <void index="10">
+     <string>setor</string>
+    </void>
+    <void index="11">
+     <string>solicitar_inscricao</string>
+    </void>
+    <void index="12">
+     <string>validacao_rh</string>
     </void>
    </array>
   </void>
@@ -37,6 +58,50 @@
    <array class="java.lang.String" length="1">
     <void index="0">
      <string>Default</string>
+    </void>
+   </array>
+  </void>
+  <void method="put">
+   <string>camposFormulario, documentoId = 6484</string>
+   <array class="java.lang.String" length="13">
+    <void index="0">
+     <string>atividadeAtual</string>
+    </void>
+    <void index="1">
+     <string>dadosCorretos</string>
+    </void>
+    <void index="2">
+     <string>email</string>
+    </void>
+    <void index="3">
+     <string>empresa</string>
+    </void>
+    <void index="4">
+     <string>estadoCivil</string>
+    </void>
+    <void index="5">
+     <string>finalizar_inscricao</string>
+    </void>
+    <void index="6">
+     <string>idade</string>
+    </void>
+    <void index="7">
+     <string>matricula</string>
+    </void>
+    <void index="8">
+     <string>nome</string>
+    </void>
+    <void index="9">
+     <string>observacao</string>
+    </void>
+    <void index="10">
+     <string>setor</string>
+    </void>
+    <void index="11">
+     <string>solicitar_inscricao</string>
+    </void>
+    <void index="12">
+     <string>validacao_rh</string>
     </void>
    </array>
   </void>
@@ -426,6 +491,19 @@
        <int>1</int>
       </void>
       <void property="processDescription">
+       <string>diagrama_solicitacao_inscricao</string>
+      </void>
+      <void property="processId">
+       <string>diagrama_solicitacao_inscricao</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
        <string>Diário de Classe Digital</string>
       </void>
       <void property="processId">
@@ -585,6 +663,19 @@
        <string>new_diagrama_teste</string>
       </void>
       <void property="processId">
+       <string>new_diagrama_inscricao_rh</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>new_diagrama_teste</string>
+      </void>
+      <void property="processId">
        <string>new_diagrama_teste</string>
       </void>
      </object>
@@ -599,6 +690,97 @@
       </void>
       <void property="processId">
        <string>new_diagrama_teste1</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>new_diagrama_teste</string>
+      </void>
+      <void property="processId">
+       <string>new_diagrama_teste123</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>new_diagrama_teste</string>
+      </void>
+      <void property="processId">
+       <string>new_diagrama_teste156</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>new_diagrama_teste</string>
+      </void>
+      <void property="processId">
+       <string>new_diagrama_teste_events</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>new_solicitacao_rh</string>
+      </void>
+      <void property="processId">
+       <string>new_solicitacao_rh</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>new_solicitacao_rh</string>
+      </void>
+      <void property="processId">
+       <string>new_solicitacao_rh_att</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>new_solicitacao_rh</string>
+      </void>
+      <void property="processId">
+       <string>new_solicitacao_rh_validate</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>new_solicitacao_rh_validate</string>
+      </void>
+      <void property="processId">
+       <string>new_solicitacao_rh_validate1</string>
       </void>
      </object>
     </void>
@@ -924,6 +1106,266 @@
       </void>
       <void property="processId">
        <string>TesteAnexoFluixRM</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio1</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio1</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio112</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio1</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio114</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio12</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio123</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio1243</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio125</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio13</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio13423</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio14</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio167</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio19</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio3</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio3</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio5</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio5</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio5</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio513</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio7</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio7</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio7</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio713</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio8</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio8</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.ProcessDefinitionDto">
+      <void property="companyId">
+       <int>1</int>
+      </void>
+      <void property="processDescription">
+       <string>teste_aleatorio9</string>
+      </void>
+      <void property="processId">
+       <string>teste_aleatorio9</string>
       </void>
      </object>
     </void>
@@ -2282,6 +2724,19 @@
       </void>
       <void property="documentId">
        <int>6454</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSfomr_inscricao_rh</string>
+      </void>
+      <void property="documentDescription">
+       <string>fomr_inscricao_rh</string>
+      </void>
+      <void property="documentId">
+       <int>6484</int>
       </void>
      </object>
     </void>

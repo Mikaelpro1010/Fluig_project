@@ -14,11 +14,13 @@
 <body>
 	<div class="fluig-style-guide">
 		<form class="form" role="form" id="formCadastro">
+			<input type="hidden" name="atividadeAtual" id="atividadeAtual">
+
 			<div class="text-center">
-				<h1><strong>Cadastro de informações pessoais</strong></h1>
+				<h1><strong>Solicitação de Admissão</strong></h1>
 			</div>
 
-			<div class="panel panel-info" id="solicitar_inscricao">
+			<div class="panel panel-info" id="solicitar_inscricao" name="solicitar_inscricao">
 				<div class="panel-heading">
 					<h3 class="panel-title font-bold">Informações Pessoais</h3>
 				</div>
@@ -27,7 +29,10 @@
 						<div class="col-md-4">
 							<div class="form-group">
 								<div class="input-group">
-									<label for="observacao">Informe seu nome:</label>
+									<label for="observacao">
+										Informe seu nome:
+										<span class="text-danger">*</span>
+									</label>
 									<input type="text" name="nome" id="nome" class="form-control"
 										placeholder="Nome completo">
 								</div>
@@ -37,7 +42,10 @@
 						<div class="col-md-4">
 							<div class="form-group">
 								<div class="input-group">
-									<label for="email">Informe seu email:</label>
+									<label for="email">
+										Informe seu email:
+										<span class="text-danger">*</span>
+									</label>
 									<input type="email" name="email" id="email" class="form-control"
 										placeholder="E-mail">
 								</div>
@@ -47,7 +55,10 @@
 						<div class="col-md-4">
 							<div class="form-group">
 								<div class="input-group">
-									<label for="idade">Informe sua idade:</label>
+									<label for="idade">
+										Informe sua idade:
+										<span class="text-danger">*</span>
+									</label>
 									<input type="text" name="idade" id="idade" class="form-control" placeholder="Idade">
 								</div>
 							</div>
@@ -55,7 +66,10 @@
 
 						<div class="col-md-4">
 							<div class="form-group">
-								<label for="">Estado Civil:</label>
+								<label for="">
+									Estado Civil:
+									<span class="text-danger">*</span>
+								</label>
 								<div class="custom-radio custom-radio-primary">
 									<input type="radio" name="estadoCivil" value="solteiro" id="radio-1">
 									<label for="radio-1">Solteiro</label>
@@ -73,7 +87,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="panel panel-info" id="validacao_rh">
+			<div class="panel panel-info" id="validacao_rh" name="validacao_rh">
 				<div class="panel-heading">
 					<h3 class="panel-title font-bold">Validação RH</h3>
 				</div>
@@ -81,7 +95,10 @@
 					<div class="row">
 						<div class="col-md-4">
 							<div class="form-group">
-								<label for="">Dados estão corretos?:</label>
+								<label for="">
+									Dados estão corretos?:
+									<span class="text-danger">*</span>
+								</label>
 								<div class="custom-radio custom-radio-primary">
 									<input type="radio" name="dadosCorretos" value="sim" id="dadosCorretos-1">
 									<label for="dadosCorretos-1">Sim</label>
@@ -104,7 +121,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="panel panel-info" id="finalizar_inscricao">
+			<div class="panel panel-info" id="finalizar_inscricao" name="finalizar_inscricao">
 				<div class="panel-heading">
 					<h3 class="panel-title font-bold">Finalizar Inscrição</h3>
 				</div>
@@ -113,7 +130,10 @@
 						<div class="col-md-4">
 							<div class="form-group">
 								<div class="input-group">
-									<label for="matricula">Informe o número de matrícula:</label>
+									<label for="matricula">
+										Informe o número de matrícula:
+										<span class="text-danger">*</span>
+									</label>
 									<input type="text" name="matricula" id="matricula" class="form-control"
 										placeholder="Número de matrícula">
 								</div>
@@ -122,7 +142,10 @@
 						<div class="col-md-4">
 							<div class="form-group">
 								<div class="input-group">
-									<label for="empresa">Informe o nome da empresa:</label>
+									<label for="empresa">
+										Informe o nome da empresa:
+										<span class="text-danger">*</span>
+									</label>
 									<input type="text" name="empresa" id="empresa" class="form-control"
 										placeholder="Nome da empresa">
 								</div>
@@ -131,7 +154,10 @@
 						<div class="col-md-4">
 							<div class="form-group">
 								<div class="input-group">
-									<label for="setor">Informe o setor de alocação:</label>
+									<label for="setor">
+										Informe o setor de alocação:
+										<span class="text-danger">*</span>
+									</label>
 									<input type="text" name="setor" id="setor" class="form-control"
 										placeholder="Setor de alocação">
 								</div>
