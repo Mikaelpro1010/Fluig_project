@@ -37,6 +37,30 @@ function displayFields(form, customHTML) {
         }
     }
 
+    function listDependentes() {
+
+        var indexes = form.getChildrenIndexes("dependentes");
+
+        var resumoTexto = "";
+
+
+        for (var i = 0; i < indexes.length; i++) {
+
+            var nome = form.getValue("nomeDependente___" + indexes[i]);
+            var idade = form.getValue("idadeDependente___" + indexes[i]);
+
+            if (nome && nome.trim() !== "") {
+                resumoTexto += "Nome - " + nome + " | Idade - " + idade + "\n";
+            }
+        }
+
+        form.setValue("resumoDependentes", resumoTexto);
+
+        var listaHTML = "<pre>" + resumoTexto + "</pre>";
+
+        customHTML.append("<script>$('#listaDependentes').html(`" + listaHTML + "`);</script>");
+    }
+
     if (atividadeAtual === 0) {
 
         form.setVisibleById('validacao_rh', false);
@@ -48,12 +72,16 @@ function displayFields(form, customHTML) {
     }
     else if (atividadeAtual === 5) {
 
+        listDependentes();
+
         form.setVisibleById('finalizar_inscricao', false);
         customHTML.append("<script>$(function(){$('#finalizar_inscricao').hide();});</script>");
 
         disableFields(solicitacaoInscricaoFields);
     }
     else if (atividadeAtual === 12) {
+
+        listDependentes();
 
         disableFields(solicitacaoInscricaoFields);
         disableFields(validacaoRHFields);

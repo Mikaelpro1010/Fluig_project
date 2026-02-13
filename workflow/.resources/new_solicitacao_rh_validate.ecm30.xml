@@ -28,7 +28,7 @@
     <processDefinitionVersionPK>
       <companyId>1</companyId>
       <processId>new_solicitacao_rh_validate</processId>
-      <version>12</version>
+      <version>14</version>
     </processDefinitionVersionPK>
     <versionDescription></versionDescription>
     <formId>6484</formId>
@@ -324,7 +324,7 @@
         <companyId>1</companyId>
         <processId>new_solicitacao_rh_validate</processId>
         <expressionOrder>1</expressionOrder>
-        <version>12</version>
+        <version>14</version>
         <sequence>10</sequence>
       </conditionProcessStatePK>
       <condition></condition>
@@ -338,7 +338,7 @@
         <companyId>1</companyId>
         <processId>new_solicitacao_rh_validate</processId>
         <expressionOrder>2</expressionOrder>
-        <version>12</version>
+        <version>14</version>
         <sequence>10</sequence>
       </conditionProcessStatePK>
       <condition></condition>
@@ -652,7 +652,7 @@ process.category=teste_mikael&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>new_solicitacao_rh_validate</processId>
-        <version>12</version>
+        <version>14</version>
         <linkSequence>6</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -663,7 +663,7 @@ process.category=teste_mikael&#xd;
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>new_solicitacao_rh_validate</processId>
-        <version>12</version>
+        <version>14</version>
         <linkSequence>8</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -781,7 +781,7 @@ process.category=teste_mikael&#xd;
       <id>0</id>
       <tenantId>0</tenantId>
       <processId>new_solicitacao_rh_validate</processId>
-      <processVersion>12</processVersion>
+      <processVersion>14</processVersion>
       <stateSequence>5</stateSequence>
       <appKey>approval</appKey>
       <appField>title</appField>
@@ -791,7 +791,7 @@ process.category=teste_mikael&#xd;
       <id>0</id>
       <tenantId>0</tenantId>
       <processId>new_solicitacao_rh_validate</processId>
-      <processVersion>12</processVersion>
+      <processVersion>14</processVersion>
       <stateSequence>5</stateSequence>
       <appKey>approval</appKey>
       <appField>description</appField>
@@ -801,7 +801,7 @@ process.category=teste_mikael&#xd;
       <id>0</id>
       <tenantId>0</tenantId>
       <processId>new_solicitacao_rh_validate</processId>
-      <processVersion>12</processVersion>
+      <processVersion>14</processVersion>
       <stateSequence>5</stateSequence>
       <appKey>approval</appKey>
       <appField>highlight</appField>
@@ -811,7 +811,7 @@ process.category=teste_mikael&#xd;
       <id>0</id>
       <tenantId>0</tenantId>
       <processId>new_solicitacao_rh_validate</processId>
-      <processVersion>12</processVersion>
+      <processVersion>14</processVersion>
       <stateSequence>5</stateSequence>
       <appKey>approval</appKey>
       <appField>approve</appField>
@@ -821,7 +821,7 @@ process.category=teste_mikael&#xd;
       <id>0</id>
       <tenantId>0</tenantId>
       <processId>new_solicitacao_rh_validate</processId>
-      <processVersion>12</processVersion>
+      <processVersion>14</processVersion>
       <stateSequence>5</stateSequence>
       <appKey>approval</appKey>
       <appField>reject</appField>
